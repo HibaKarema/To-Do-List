@@ -1,0 +1,88 @@
+body {
+  background: linear-gradient(90deg, #212529 0%, #343a40 35%, #495057 100%);
+}
+.App {
+  width: 50%;
+  margin: 80px auto;
+  padding: 50px;
+  text-align: center;
+  border-radius: 25px;
+  box-shadow: -5px -5px 2px #212529;
+  animation: code2 2s ease-in 2s 1 normal forwards;
+  box-shadow: 0 12px 20px 0 rgb(0 0 0 / 20%), 0 2px 4px 0 rgb(0 0 0 / 20%);
+  letter-spacing: 1px;
+  font-size: 20px;
+}
+@keyframes code2 {
+  0% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(-80px);
+  }
+}
+.App h2 {
+  color: #fff;
+  text-shadow: 0 12px 20px rgb(255 255 255 / 20%),
+    0 2px 4px rgb(255 255 255 / 20%);
+}
+.App ul {
+  cursor: pointer;
+  font-size: 22px;
+  color: #fff;
+  margin: 20px;
+  list-style-type: '🖋️';
+  max-height: 500px;
+  overflow-y: auto;
+}
+.App input {
+  width: 200px;
+  height: 40px;
+  border-radius: 10px;
+  margin: 20px auto;
+  border: 0;
+}
+.App .addBtn {
+  display: block;
+  margin: auto;
+  width: 150px;
+  background-color: black;
+  color: #fff;
+  border: 0;
+  border-radius: 25px;
+  padding: 10px;
+  box-shadow: 0 12px 20px 0 rgb(0 0 0 / 20%), 0 2px 4px 0 rgb(0 0 0 / 20%);
+}
+.App ul li {
+  box-shadow: 0 12px 20px 0 rgb(0 0 0 / 20%), 0 2px 4px 0 rgb(0 0 0 / 20%);
+  padding: 10px;
+  border-radius: 20px;
+  margin-top: 20px;
+  justify-content: space-around;
+  align-items: center;
+}
+.App ul li .text {
+  word-wrap: break-word !important;
+}
+.btnDivs {
+  display: inline-block;
+  float: right;
+  margin: 5px;
+}
+.liStyle1 {
+  list-style-type: '✔️';
+}
+.liStyle {
+  text-decoration: line-through;
+  overflow-wrap: break-word !important;
+}
+.div10 span {
+  cursor: pointer;
+  font-size: 25px;
+}
+@media (max-width: 567px) {
+  .App {
+    width: 80%;
+    padding: 10px;
+  }
+}
